@@ -1,0 +1,10 @@
+@media  screen and (max-width: 768px){
+    .contact{
+   flex-wrap: wrap;
+   margin-left: 10px;
+    }
+    .conctact-container{
+        width: 350px;
+        
+    }
+}

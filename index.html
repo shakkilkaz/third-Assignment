@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Prata&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css">
 
     <!-- tailwind cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -91,7 +92,7 @@
     <!-- banner-section  -->
 
     <section class="my-20">
-      <div class="flex flex-col items-center space-y-6">
+      <div class="flex flex-col items-center space-y-6 w-full  ">
         <img src="./img/banner.png" alt="" />
         <div class="text-center sm:flex-row">
           <h2 class="text-4xl font-semibold mb-7">
@@ -115,7 +116,7 @@
     <!-- About-section  -->
 
     <section class="bg-[#ececec] rounded-md py-10">
-      <div class="flex flex-col ml-20 items-start space-y-6">
+      <div class="flex flex-col   ml-20 items-start space-y-6">
         <img class="mt-20" src="./img/Vector.png" alt="" />
         <div
           class="flex justify-center gap-3 items-center bg-slate-50 w-48 rounded-2xl"
@@ -125,7 +126,7 @@
         </div>
       </div>
 
-      <div class="flex justify-around items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-2 my-20 flex-wrap items-center w-[80%] mx-auto">
         <div>
           <h1 class="text-3xl font-semibold">
             We design thoughtful, <br />
@@ -137,9 +138,9 @@
           </p>
 
           <div
-            class="flex gap-5 bg-slate-100 w-[500px] my-6 px-6 py-5 rounded-lg"
+            class="flex gap-5 bg-slate-100   md:w-[500px] my-6 px-6 py-5 rounded-lg"
           >
-            <img src="./img/commercial.png" alt="" />
+            <img class="" src="./img/commercial.png" alt="" />
             <div>
               <h2 class="text-2xl font-semibold">Commercial</h2>
               <p>
@@ -149,7 +150,7 @@
             </div>
           </div>
           <div
-            class="flex gap-5 bg-slate-100 w-[500px] my-6 py-5 px-6 rounded-lg"
+            class="flex gap-5 bg-slate-100 md:w-[500px] my-6 py-5 px-6 rounded-lg"
           >
             <img src="./img/residential.png" alt="" />
             <div>
@@ -267,7 +268,7 @@
 
       <div class="grid sm:grid-cols-1 lg:grid-cols-3 gap-4">
         <div
-          class="rounded-md p-4 col-span-2 flex justify-between space-x-4 items-center border"
+          class="rounded-md p-4 col-span-2 flex justify-between flex-wrap space-x-4 items-center border "
         >
           <img src="img/img1.png" alt="" />
           <div>
@@ -280,7 +281,7 @@
             <button class="btn btn-wide">view details</button>
           </div>
         </div>
-        <div class="p-4">
+        <div class="p-4 ">
           <img class="w-full h-64" src="img/img3.png" alt="" />
         </div>
 
@@ -288,7 +289,7 @@
           <img class="w-full h-64" src="img/img4.png" alt="" />
         </div>
         <div
-          class="rounded-md p-4 col-span-2 flex justify-between space-x-4 items-center border"
+          class="rounded-md p-4 col-span-2 flex justify-between flex-wrap space-x-4 items-center border"
         >
           <img src="img/img5.png" alt="" />
           <div>
@@ -325,13 +326,13 @@
         </div>
       </div>
 
-    <div class="w-[70%] mx-auto grid grid-cols-1 lg:grid-cols-2  justify-center  ">
-      <div>
-        <div>
+    <div class="contact w-[70%] mx-auto grid grid-cols-1 lg:grid-cols-2  justify-center ">
+      <div class=" mb-5">
+        <div class="">
           <input
             type="text"
             placeholder="Type here"
-            class="input input-bordered input-primary w-[500px] mb-5"
+            class="conctact-container input input-bordered input-primary w-[500px] mb-5"
           />
          
         </div>
@@ -339,7 +340,7 @@
           <input
             type="text"
             placeholder="Type here"
-            class="input input-bordered input-primary w-[500px]"
+            class="conctact-container input input-bordered input-primary w-[500px]"
           />
          
         </div>
@@ -349,7 +350,7 @@
           <input
             type="text"
             placeholder="Type here"
-            class="input input-bordered input-primary   mb-5 w-[500px]"
+            class="conctact-container input input-bordered input-primary   mb-5 w-[500px]"
           />
          
         </div>
@@ -357,7 +358,7 @@
           <input
             type="text"
             placeholder="Type here"
-            class="input input-bordered input-primary  w-[500px]"
+            class="conctact-container input input-bordered input-primary  w-[500px]"
           />
          
         </div>
@@ -367,28 +368,28 @@
     <div class="my-10 text-center">
       <textarea
       placeholder="Write your message here"
-      class="textarea textarea-bordered textarea-lg w-[1050px] h-60 "></textarea>
+      class="conctact-container textarea textarea-bordered textarea-lg w-[1050px] h-60 "></textarea>
 
     </div>
     <div class="text-center">
-      <button class="btn btn-info  w-[1050px]">send mail</button>
+      <button class="conctact-container btn btn-info  w-[1050px]">send mail</button>
     </div>
     </section>
 
     <!-- Footer -->
 
-   <section class=" bg-black text-white py-10 rounded-md">
+   <section class=" bg-black text-white py-10 rounded-md p-10">
 
     <div class="text-center my-10">
       <img class="mx-auto mb-5" src="./img/Frame 58.png" alt="" />
       <p class="text-gray-400">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents</p>
     </div>
     <footer class="">
-      <div class="flex justify-around items-center mb-7 ">
+      <div class="flex flex-wrap justify-around   items-center mb-7 ">
         <p>Home</p>
         <p>About</p>
         <p>Services</p>
-        <p>Portfolio</p>
+        <p>portfolio</p>
         <p>Contact</p>
       </div>
       <div class="text-center mt-10">
